@@ -1,7 +1,8 @@
 import React from 'react';
 import Navbar from '../components/Navbar'
 // import banner from '../assets/banner.png';
-import chara from '../assets/chara.png'
+import gf from '../assets/gf.gif'
+// import cc from '../assets/cc.mp4'
 import net from '../assets/net.png';
 import agent from '../assets/agent.png'
 import cal from '../assets/cal.png'
@@ -103,13 +104,24 @@ const Home = () => {
     </div>
     
     {/* NETA Character Image */}
-    <div className="w-full flex justify-center">
-      <img
-        src={chara}
-        alt="NETA Character"
-        className=" w-[20rem] h-[20rem] lg:w-[26rem] lg:h-[26rem] object-contain"
-      />
-    </div>
+    <div className="w-full flex justify-center mt-[-3rem]">
+    <img
+    src={gf}
+    alt="NETA Character"
+    className="w-[20rem] h-[20rem] lg:w-[26rem] lg:h-[26rem] object-contain "
+  />
+  {/* <video
+    autoPlay
+    loop
+   
+    playsInline
+    className="w-[20rem] h-[20rem] lg:w-[26rem] lg:h-[26rem] object-contain animate-float mix-blend-screen"
+  >
+    <source src={cc} type="video/webm" />
+    <source src={cc} type="video/mp4" />
+   
+  </video> */}
+</div>
   </div>
 </div>
     <div className="container mx-auto px-4 py-8">

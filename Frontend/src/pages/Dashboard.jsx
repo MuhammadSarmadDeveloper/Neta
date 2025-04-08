@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import net from '../assets/net.png';
 import shop from '../assets/shop.png';
 import rev from '../assets/rev.png';
-import chara from '../assets/chara.png'
+// import chara from '../assets/chara.png'
+import gf from '../assets/gf.gif'
 import { FaShoppingBasket } from "react-icons/fa";
 // import roboc from '../assets/roboc.png';
 import { Link } from 'react-router-dom';
@@ -203,9 +204,9 @@ const DashboardContent = () => {
         <div className="flex flex-col items-center space-y-4">
           
           <img 
-            src={chara} 
+            src={gf}
             alt="Help Icon" 
-            className="w-[300px] h-[260px]" 
+            className="w-[300px] object-contain  h-[260px] mt-[-2rem]"
           />
           <h1 className="text-2xl font-semibold text-gray-800">How may I help you?</h1>
           <p className="text-gray-500 text-center">
