@@ -176,7 +176,7 @@ const DashboardContent = () => {
 
   return (
     <div className="h-auto bg-gray-50 flex flex-col items-center justify-center p-4">
-      <div className="w-full max-w-2xl lg:mt-[-2rem] md:mt-[-2rem] mt-0 rounded-lg p-6 space-y-6">
+      <div className="w-full max-w-2xl lg:mt-[-4.5rem] md:mt-[-4.5rem] mt-0 rounded-lg p-6 space-y-6">
       <div className="mt-6 relative">
             <input 
               type="text" 
@@ -205,7 +205,7 @@ const DashboardContent = () => {
           <img 
             src={chara} 
             alt="Help Icon" 
-            className="w-[340px] h-[300px]" 
+            className="w-[300px] h-[260px]" 
           />
           <h1 className="text-2xl font-semibold text-gray-800">How may I help you?</h1>
           <p className="text-gray-500 text-center">
